@@ -1,0 +1,103 @@
+---
+sidebar: sidebar 
+permalink: task-add-blob-storage.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, add storage accounts, netapp console, system 
+summary: Azure Blob Storage システムがNetAppコンソールのシステム ページで使用可能になったら、コンソールから直接追加のストレージ アカウントを追加できます。 
+---
+= NetAppコンソールで Azure Blob ストレージ アカウントを追加する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Blob Storage システムがNetAppコンソールのシステム ページで使用可能になったら、コンソールから直接追加のストレージ アカウントを追加できます。
+
+.手順
+. [システム] ページで、Azure Blob Storage システムを選択し、その概要ページを表示します。
+. *ストレージ アカウントの追加*を選択します。
++
+image:screenshot-add-blob-storage-button.png["Azure Blob Storage システムの詳細と [ストレージ アカウントの追加] ボタンを示すスクリーンショット。"]
+
++
+_ストレージ アカウントの追加_ ページが表示されます。
+
++
+image:screenshot-add-blob-storage.png["独自の Azure Blob ストレージ アカウントを作成できる [ストレージ アカウントの追加] ページを示すスクリーンショット。"]
+
+. _プロジェクトの詳細_セクションに必要な情報を入力します。
++
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| Subscription | 新しいストレージ アカウントの Azure サブスクリプションを選択します。 
+
+
+| リソース グループ  a| 
+このストレージ アカウントの既存のリソース グループを選択します。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["リソースグループの詳細"^] 。
+
+|===
+. [インスタンスの詳細] セクションで、ストレージ アカウントの名前を入力し、ストレージ アカウントを作成するリージョン (複数可) を選択します。
++
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| ストレージアカウント名 | ストレージ アカウントに使用する名前を入力します。名前の長さは 3 〜 24 文字で、数字と小文字のみを含めることができます。 
+
+
+| Azureリージョン  a| 
+ストレージ アカウントが作成されるリージョンをリストから選択します。
+
+ストレージ アカウントに適切なリージョンを選択します。 https://learn.microsoft.com/en-us/azure/availability-zones/az-overview["Azureのリージョンと可用性ゾーンに関する情報については、Microsoftのドキュメントを参照してください。"^] 。
+
+すべてのリージョンで、すべての種類のストレージ アカウントまたは冗長構成がサポートされているわけではありません。 https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy["Azure Storageの冗長性については、Microsoftのドキュメントを参照してください。"^] 。
+
+さらに、リージョンの選択によって請求額が影響を受ける可能性があります。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing["Azure Storage アカウントの課金に関する情報については、Microsoft のドキュメントを参照してください。"^] 。
+
+
+
+| パフォーマンスタイプ  a| 
+*標準* パフォーマンス ストレージを使用するか、*プレミアム* パフォーマンス ストレージを使用するかを選択します。 https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts["ストレージアカウントの種類については、Microsoftのドキュメントを参照してください。"^] 。
+
+** _Standard_ パフォーマンスは、汎用 v2 ストレージ アカウントに使用されます。ほとんどのシナリオでは、このタイプのアカウントが推奨されます。
+** _Premium_ パフォーマンスは、低レイテンシが必要なシナリオに使用されます。利用可能なプレミアム ストレージ アカウントには、ブロック BLOB、ファイル共有、ページ BLOB の 3 種類があります。
+
+
+|===
+. _Tags_ セクションでは、リソースをグループ化するために最大 10 個のタグのキーと値のペアを入力できます。
++
+タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウド プロバイダーなどを識別するために使用できるメタデータです。ストレージ アカウントにタグを追加すると、オブジェクトがストレージ アカウントに追加されたときにタグがオブジェクトに適用されます。
+
++
+コンソールによって作成された新しいストレージ アカウントでは、タグはデフォルトで無効になっています。 https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["タグ付けの詳細"^] 。
+
+. [暗号化] セクションで、ストレージ アカウント内のデータへのアクセスを保護するために使用するデータ暗号化の種類を選択します。
++
+[cols="25,75"]
+|===
+| データ暗号化タイプ | 説明 
+
+
+| Microsoft 管理キー | デフォルトでは、データの暗号化には Microsoft が管理する暗号化キーが使用されます。 
+
+
+| 顧客管理キー  a| 
+既定の Microsoft 管理の暗号化キーを使用する代わりに、独自の顧客管理キーをデータ暗号化に使用できます。独自のカスタマー マネージド キーを使用する予定の場合は、このページで Key Vault とキーを選択できるように、キーをあらかじめ作成しておく必要があります。
+
+キーはストレージ アカウントと同じサブスクリプション内に置くことも、別のサブスクリプションを選択することもできます。
+
+|===
++
+Microsoft Azureのドキュメントを参照してください https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Microsoft 管理キーに関する詳細情報"^]、 そして https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["顧客管理キーの詳細情報"^]。
+
+. バケットを作成するには、[*追加*] を選択します。
+

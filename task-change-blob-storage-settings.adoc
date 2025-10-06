@@ -1,0 +1,86 @@
+---
+sidebar: sidebar 
+permalink: task-change-blob-storage-settings.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: Azure Blob Storage システムがシステム ページで使用できるようになると、 NetAppコンソールから一部のストレージ アカウントのプロパティを直接変更できます。 
+---
+= NetAppコンソールで Azure Blob ストレージ アカウント設定を変更する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure Blob Storage システムがシステム ページで使用できるようになると、 NetAppコンソールから一部のストレージ アカウントのプロパティを直接変更できます。
+
+ストレージ アカウント名、Azure リージョン、またはストレージのパフォーマンスの種類は変更できないことに注意してください。
+
+変更できるストレージ アカウントのプロパティは次のとおりです。
+
+* ストレージ アカウントのサブスクリプションとリソース グループ。
+* ストレージ アカウントに追加されたオブジェクトのタグを追加、変更、または削除します。
+* ストレージ アカウントに追加された新しいオブジェクトが暗号化されるかどうか、および暗号化に使用されるオプション。
+
+
+これらのストレージアカウント設定は、コンソールから直接変更することができます。image:button-horizontal-more.gif["3つの点のボタン"]ストレージ アカウント用。
+
+image:screenshot-edit-azure-blob-storage.png["コンソールからストレージ アカウントのプロパティを編集する方法を示すスクリーンショット。"]
+
+
+
+== プロジェクトの詳細を変更する
+
+_プロジェクトの詳細_ セクションでは、ストレージ アカウントのサブスクリプションとリソース グループを変更できます。
+
+[cols="25,75"]
+|===
+| フィールド | 説明 
+
+
+| Subscription | ストレージ アカウントに別の Azure サブスクリプションを選択します。 
+
+
+| リソース グループ  a| 
+ストレージ アカウントに別のリソース グループを選択します。
+
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal["リソースグループの詳細"^] 。
+
+|===
+*保存* を選択して、ストレージ アカウントへの変更を保存します。
+
+
+
+== ストレージ アカウント内のオブジェクトのタグを追加または変更する
+
+_タグ_ セクションでは、最大 10 個のタグ キー/値のペアを追加したり、タグ キー/値のペアを変更または削除したりできます。タグは、オブジェクトがストレージ アカウントに追加されたときに適用されます。さらにタグを追加する場合は、「*新しいタグを追加*」を選択します。
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/storage-manage-find-blobs["タグ付けの詳細については、Microsoft のドキュメントをご覧ください。"^] 。
+
+*保存* を選択して、ストレージ アカウントへの変更を保存します。
+
+
+
+== 暗号化設定を変更する
+
+_Encryption_ セクションでは、ストレージ アカウント内のデータへのアクセスを保護するために使用するデータ暗号化の種類を変更できます。
+
+[cols="25,75"]
+|===
+| データ暗号化タイプ | 説明 
+
+
+| Microsoft 管理キー | デフォルトでは、データの暗号化には Microsoft が管理する暗号化キーが使用されます。 
+
+
+| 顧客管理キー  a| 
+既定の Microsoft 管理の暗号化キーを使用する代わりに、独自の顧客管理キーをデータ暗号化に使用できます。独自のカスタマー マネージド キーを使用する予定の場合は、このページで Key Vault とキーを選択できるように、キーをあらかじめ作成しておく必要があります。
+
+キーはストレージ アカウントと同じサブスクリプション内に置くことも、別のサブスクリプションを選択することもできます。
+
+|===
+Microsoft Azureのドキュメントを参照してください https://learn.microsoft.com/en-us/azure/storage/common/storage-service-encryption["Microsoft 管理キーに関する詳細情報"^]、 そして https://learn.microsoft.com/en-us/azure/storage/common/customer-managed-keys-overview["顧客管理キーの詳細情報"^]。
+
+*保存* を選択して、ストレージ アカウントへの変更を保存します。

@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task-view-azure-blob-storage.html 
+keywords: blob storage, blob system, azure blob storage accounts, azure blob working environment 
+summary: Azure にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Azure サブスクリプションに存在する Azure ストレージ アカウントに関する情報を自動的に検出できるようになります。 
+---
+= Azure Blob ストレージ アカウントを表示する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Azure にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Azure サブスクリプションに存在する Azure ストレージ アカウントに関する情報を自動的に検出できるようになります。この情報を表示できるように、Azure Blob システムがシステム ページに追加されます。
+
+場所、リソース グループ、使用済み容量など、Azure ストレージ アカウントの詳細を確認できます。これらのアカウントは、 NetApp Backup and Recovery、 NetApp Copy and Sync、 NetApp Cloud Tiering からの操作の宛先として使用できます。
+
+.手順
+. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["コンソールエージェントをインストールする"^]Azure Blob ストレージ アカウントを表示する Azure アカウントで。
+. ナビゲーション メニューから、*ストレージ > システム*を選択します。
++
+しばらくすると、Azure Blob Storage システムが自動的に表示されます。
+
++
+image:screenshot-azure-blob-we.png["Azure Blob Storage システムのスクリーンショット。"]
+
+. システムを選択します。Azure BlobストレージでNetAppデータサービスを有効にする場合は、右側のペインからアクションを選択します。
++
+link:task-blob-enable-data-services.html["利用可能なデータ サービスを確認し、Azure Blob Storage アカウントでそれらを使用する方法を学習します。"] 。
+
+. Azure ストレージ アカウントの詳細を表示するには、[システムに入る] を選択するか、システムをダブルクリックします。
++
+image:screenshot-azure-blob-details.png["Azure Blob システムの詳細 (ストレージ アカウントの合計数、場所の合計数、リソース グループ、合計容量など) を示すスクリーンショット。"]
+
++
+デフォルトで表示される列に加えて、ページをスクロールして、ストレージ アカウントの追加プロパティ (タグの数、有効になっている暗号化の種類など) を表示できます。
+
+
+
+.次の手順
+ストレージアカウントの一部の設定を変更するには、コンソールから直接変更します。image:button-horizontal-more.gif["3つの点のボタン"]ストレージ アカウント用。link:task-change-blob-storage-settings.html["詳細はこちら"] 。
+
+*ストレージ アカウントの追加* を選択すると、新しいバケットを追加できます。link:task-add-blob-storage.html["詳細はこちら"] 。

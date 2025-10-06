@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, limitations, known issues, enhancements, fixes' 
+summary: NetAppコンソールの Azure Blob Storage の新機能について説明します。 
+---
+= NetAppコンソールの Azure Blob Storage の新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールの Azure Blob Storage の新機能について説明します。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。
+
+NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
+
+変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 2023年6月5日
+
+
+
+=== BlueXPから新しいストレージアカウントを追加する機能
+
+かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。 BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。xref:../task-add-blob-storage.html[新しい Azure Blob ストレージ アカウントを追加する方法を学ぶ] 。

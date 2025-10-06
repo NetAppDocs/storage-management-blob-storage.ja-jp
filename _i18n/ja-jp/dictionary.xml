@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="f9037e3eb23130835367334e3aa5a34b" category="doc">BlueXPから新しいストレージアカウントを追加する機能</block>
+  <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">新しい Azure Blob ストレージ アカウントを追加する方法を学ぶ</block>
+  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。 BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。<block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetAppコンソールになりました</block>
+  <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。</block>
+  <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetAppコンソールのリリースノート</block>
+  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">変更内容の詳細については、<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> 。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp、NetAppのロゴ、NetAppの商標一覧のページに掲載されているマークは、NetApp, Inc.の商標です。その他の会社名と製品名は、それを所有する各社の商標である場合があります。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">現在NetAppが所有する特許の一覧は以下のページから閲覧できます。</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシー ポリシー</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetAppコンソールに関するお知らせ</block>
+  <block id="e672b1ea49afca81ea77f91f12f606ea" category="paragraph"><block ref="e672b1ea49afca81ea77f91f12f606ea" category="inline-link-rx"></block></block>
+  <block id="3572522b9cf12bb382fd0920f5745fd0" category="summary">Azure Blob Storage システムがNetAppコンソールのシステム ページで使用可能になったら、コンソールから直接追加のストレージ アカウントを追加できます。</block>
+  <block id="98249a942e9f70229e82c312e65b0c3e" category="doc">NetAppコンソールで Azure Blob ストレージ アカウントを追加する</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="f26976a57b4b2678f49494dbb9d5d7e3" category="list-text">[システム] ページで、Azure Blob Storage システムを選択し、その概要ページを表示します。</block>
+  <block id="602b161b60e8246dc4e65dcaef35823e" category="list-text">*ストレージ アカウントの追加*を選択します。</block>
+  <block id="d956460f8fb7f0726172fd2714137772" category="inline-image-macro">Azure Blob Storage システムの詳細と [ストレージ アカウントの追加] ボタンを示すスクリーンショット。</block>
+  <block id="60e5d28f2c57cb8735c8e9845d47df43" category="paragraph"><block ref="60e5d28f2c57cb8735c8e9845d47df43" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d4dcbffc28d157acf2d779535ea39e5" category="paragraph">_ストレージ アカウントの追加_ ページが表示されます。</block>
+  <block id="bf04df0a09965db404ac8255f46f224b" category="inline-image-macro">独自の Azure Blob ストレージ アカウントを作成できる [ストレージ アカウントの追加] ページを示すスクリーンショット。</block>
+  <block id="2ec7cbfa91de880af44acf67a5f1462e" category="paragraph"><block ref="2ec7cbfa91de880af44acf67a5f1462e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6c2ed49d2a85251adbf8725c16c45ceb" category="list-text">_プロジェクトの詳細_セクションに必要な情報を入力します。</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">フィールド</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">説明</block>
+  <block id="787ad0b7a17de4ad6b1711bbf8d79fcb" category="cell">Subscription</block>
+  <block id="297cc7b38642922e63d9c24e2ee9ffcf" category="cell">新しいストレージ アカウントの Azure サブスクリプションを選択します。</block>
+  <block id="dde92bca1b59f0db813ef42a2688752e" category="cell">リソース グループ</block>
+  <block id="d1336732268253a419277477d356697a" category="paragraph">このストレージ アカウントの既存のリソース グループを選択します。</block>
+  <block id="b32c0d2df176fefd71be6c2adefbc180" category="inline-link">リソースグループの詳細</block>
+  <block id="7ac86296fadeb1001aa3f5bbef887896" category="paragraph"><block ref="445f5298ad882f018cbc306156a1ebe2" category="inline-link-rx"></block> 。</block>
+  <block id="d7e28c7a6d98bdbd4c9cd9d4dc11a628" category="list-text">[インスタンスの詳細] セクションで、ストレージ アカウントの名前を入力し、ストレージ アカウントを作成するリージョン (複数可) を選択します。</block>
+  <block id="f0a1afcc0650dae92930971db3ae3a1d" category="cell">ストレージアカウント名</block>
+  <block id="558e46bdb9949da37975f8388e28a597" category="cell">ストレージ アカウントに使用する名前を入力します。名前の長さは 3 〜 24 文字で、数字と小文字のみを含めることができます。</block>
+  <block id="8d154dd14e0b151238dd0e49b65d9533" category="cell">Azureリージョン</block>
+  <block id="53c8664828c7264efef66eced9671dc2" category="paragraph">ストレージ アカウントが作成されるリージョンをリストから選択します。</block>
+  <block id="c0e40ff2b716a80cbc2fd16626d3f61e" category="inline-link">Azureのリージョンと可用性ゾーンに関する情報については、Microsoftのドキュメントを参照してください。</block>
+  <block id="40355867a264abf094a9aa779a75dd8f" category="paragraph">ストレージ アカウントに適切なリージョンを選択します。<block ref="abc87d23fc6c9f021e60756e2063dcc3" category="inline-link-rx"></block> 。</block>
+  <block id="f203c4b479a5bcde0bc73db580e9f3d1" category="inline-link">Azure Storageの冗長性については、Microsoftのドキュメントを参照してください。</block>
+  <block id="ff87f9fbf7898f496194f1980d48f4a2" category="paragraph">すべてのリージョンで、すべての種類のストレージ アカウントまたは冗長構成がサポートされているわけではありません。<block ref="bded912a08f603cb0260e0b6aa67ac71" category="inline-link-rx"></block> 。</block>
+  <block id="3990a9fcdaa918091759458ba1a25c61" category="inline-link">Azure Storage アカウントの課金に関する情報については、Microsoft のドキュメントを参照してください。</block>
+  <block id="110a49b3ef49fc5f4692cff7fdb8718a" category="paragraph">さらに、リージョンの選択によって請求額が影響を受ける可能性があります。<block ref="7d719ff2031acb955e3bbd19c0a78d6b" category="inline-link-rx"></block> 。</block>
+  <block id="102eb053f612f322d6cf12b730d38311" category="cell">パフォーマンスタイプ</block>
+  <block id="019952a548f814654c4e6a303422b97a" category="inline-link">ストレージアカウントの種類については、Microsoftのドキュメントを参照してください。</block>
+  <block id="51abeeefb299dcba3785b7f3cefdc22f" category="paragraph">*標準* パフォーマンス ストレージを使用するか、*プレミアム* パフォーマンス ストレージを使用するかを選択します。<block ref="873a6ab78f8c2b10225a89b561955b0f" category="inline-link-rx"></block> 。</block>
+  <block id="1fe18ace05440ed78b22fa7bebf91aa4" category="list-text">_Standard_ パフォーマンスは、汎用 v2 ストレージ アカウントに使用されます。ほとんどのシナリオでは、このタイプのアカウントが推奨されます。</block>
+  <block id="728b4e5c0a4f62a5b33a5649ba2db610" category="list-text">_Premium_ パフォーマンスは、低レイテンシが必要なシナリオに使用されます。利用可能なプレミアム ストレージ アカウントには、ブロック BLOB、ファイル共有、ページ BLOB の 3 種類があります。</block>
+  <block id="8b967113821842e03de579c9069daf60" category="list-text">_Tags_ セクションでは、リソースをグループ化するために最大 10 個のタグのキーと値のペアを入力できます。</block>
+  <block id="8fffdc96fdfcfdbc3aca184e2b8ca41a" category="paragraph">タグは、リソースをグループ化してアプリケーション、環境、リージョン、クラウド プロバイダーなどを識別するために使用できるメタデータです。ストレージ アカウントにタグを追加すると、オブジェクトがストレージ アカウントに追加されたときにタグがオブジェクトに適用されます。</block>
+  <block id="587a3b529ee36768600b3185997270b8" category="inline-link">タグ付けの詳細</block>
+  <block id="244ef5d2515eddfc5c192e301b05428a" category="paragraph">コンソールによって作成された新しいストレージ アカウントでは、タグはデフォルトで無効になっています。<block ref="7faf9551ac5d323516ac260dde96010c" category="inline-link-rx"></block> 。</block>
+  <block id="48ad81c476da7ce1819397078217ad4d" category="list-text">[暗号化] セクションで、ストレージ アカウント内のデータへのアクセスを保護するために使用するデータ暗号化の種類を選択します。</block>
+  <block id="3603122b16ffebe244e1d0d7f1d34faa" category="cell">データ暗号化タイプ</block>
+  <block id="20c72b71b183c5eef4e98c53a89dcffa" category="cell">Microsoft 管理キー</block>
+  <block id="6f9a295964454cb07657794f38c155a5" category="cell">デフォルトでは、データの暗号化には Microsoft が管理する暗号化キーが使用されます。</block>
+  <block id="7e9a4d492051329215e26c7a9f847546" category="cell">顧客管理キー</block>
+  <block id="19cd180fa0b90f4870326704c4f3c4f9" category="paragraph">既定の Microsoft 管理の暗号化キーを使用する代わりに、独自の顧客管理キーをデータ暗号化に使用できます。独自のカスタマー マネージド キーを使用する予定の場合は、このページで Key Vault とキーを選択できるように、キーをあらかじめ作成しておく必要があります。</block>
+  <block id="3af46610d84535bcb463b8926bbad9bf" category="paragraph">キーはストレージ アカウントと同じサブスクリプション内に置くことも、別のサブスクリプションを選択することもできます。</block>
+  <block id="bf9506c29548950a761acad26f68f805" category="inline-link">Microsoft 管理キーに関する詳細情報</block>
+  <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">顧客管理キーの詳細情報</block>
+  <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">Microsoft Azureのドキュメントを参照してください<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block>、 そして<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block>。</block>
+  <block id="4075c13a9dc3ab5fe72584ab95dcb280" category="list-text">バケットを作成するには、[*追加*] を選択します。</block>
+  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">BlueXPで Azure Blob ストレージ アカウントを検出したら、バックアップ、階層化、およびデータ同期にNetAppデータ サービスを使用できます。</block>
+  <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">Azure Blob ストレージでNetAppデータ サービスを使用する</block>
+  <block id="1b2bcb14630e84f98ecf8fc8ba9e1bd7" category="paragraph">NetAppコンソールで Azure Blob ストレージ アカウントを検出したら、バックアップ、階層化、およびデータ同期にNetAppデータ サービスを使用できます。</block>
+  <block id="8244f0a4bfcb8635db2f91ef5aa1b9eb" category="list-text">* NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから Azure Blob ストレージにデータをバックアップします。</block>
+  <block id="de91c1448816840d85691a77ebd16003" category="paragraph">開始するには、「システム」ページに移動します。オンプレミスのONTAPまたはCloud Volumes ONTAPシステムを Azure Blob Storage システムにドラッグ アンド ドロップします。</block>
+  <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">ONTAPデータを Azure Blob ストレージにバックアップする方法の詳細</block>
+  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block> 。</block>
+  <block id="95578947246790f85684248eaa680963" category="list-text">* NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスターから Azure Blob ストレージに非アクティブなデータを階層化します。</block>
+  <block id="565724b78e68c2fe59a7fe137cb67cf4" category="paragraph">開始するには、「システム」ページに移動します。オンプレミスのONTAPシステムを Azure Blob Storage システムにドラッグ アンド ドロップします。</block>
+  <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">ONTAPデータを Azure Blob ストレージに階層化する方法の詳細</block>
+  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block> 。</block>
+  <block id="fbf760e5fd50e3458e72728d6cfcdd8c" category="list-text">* NetApp Copy and Sync* を使用して、Azure Blob ストレージ アカウントとの間でデータを同期します。</block>
+  <block id="92f68f59c4c56b8e291f44d42de2d134" category="paragraph">開始するには、「システム」ページに移動します。ソース システムをターゲット システムにドラッグ アンド ドロップします。  Azure Blob Storage システムは、ソースまたはターゲットのいずれかになります。</block>
+  <block id="ae6c3cec15a4ac482ea9a67236df0484" category="paragraph">また、Azure Blob ストレージ システムを選択し、[サービス] パネルから [コピーと同期] を選択して、Azure Blob ストレージ アカウントとの間でデータを同期することもできます。</block>
+  <block id="457a1cf5fd2ca976e622a9a914d24bad" category="inline-link">コピーと同期について詳しくはこちら</block>
+  <block id="390b3380d403721d5ae98adafc131592" category="paragraph"><block ref="f9b2d2345f65b81f6f23df634577d11f" category="inline-link-rx"></block> 。</block>
+  <block id="3cdcdc716a6a72fc6747db0e7fc271df" category="summary">Azure Blob Storage システムがシステム ページで使用できるようになると、 NetAppコンソールから一部のストレージ アカウントのプロパティを直接変更できます。</block>
+  <block id="326e8a2426191fe14f044e4c0c5c2763" category="doc">NetAppコンソールで Azure Blob ストレージ アカウント設定を変更する</block>
+  <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">ストレージ アカウント名、Azure リージョン、またはストレージのパフォーマンスの種類は変更できないことに注意してください。</block>
+  <block id="e7ed4bfb82f1066f906424570659dbe9" category="paragraph">変更できるストレージ アカウントのプロパティは次のとおりです。</block>
+  <block id="50ef0c48e3784c389a3eb1a1d713adf7" category="list-text">ストレージ アカウントのサブスクリプションとリソース グループ。</block>
+  <block id="737f49f5c14b1caf292db3a6a483b522" category="list-text">ストレージ アカウントに追加されたオブジェクトのタグを追加、変更、または削除します。</block>
+  <block id="781c08ce41f6fcf95d2d660f80be5e81" category="list-text">ストレージ アカウントに追加された新しいオブジェクトが暗号化されるかどうか、および暗号化に使用されるオプション。</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">3つの点のボタン</block>
+  <block id="c3d7dc296064c77cfd2830516fdcf6cb" category="paragraph">これらのストレージアカウント設定は、コンソールから直接変更することができます。<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>ストレージ アカウント用。</block>
+  <block id="36dcecbde1013c70c1ba5aae99acce7f" category="inline-image-macro">コンソールからストレージ アカウントのプロパティを編集する方法を示すスクリーンショット。</block>
+  <block id="77b095b5304abdbbe2056329047c79c6" category="paragraph"><block ref="77b095b5304abdbbe2056329047c79c6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="869eb1956c09b2f8ed60f3ca35970fbf" category="section-title">プロジェクトの詳細を変更する</block>
+  <block id="19b197bd0a78837ce4e03a124c64ed82" category="paragraph">_プロジェクトの詳細_ セクションでは、ストレージ アカウントのサブスクリプションとリソース グループを変更できます。</block>
+  <block id="feb48bb74d60f8176232bcb55b1deccd" category="cell">ストレージ アカウントに別の Azure サブスクリプションを選択します。</block>
+  <block id="8ef21a42c9501fd64e52e3dec49f1962" category="paragraph">ストレージ アカウントに別のリソース グループを選択します。</block>
+  <block id="2096a89f09bd7c0b6d3faaf57bed993b" category="paragraph">*保存* を選択して、ストレージ アカウントへの変更を保存します。</block>
+  <block id="7668db01dedac8d796487eff4668ade4" category="section-title">ストレージ アカウント内のオブジェクトのタグを追加または変更する</block>
+  <block id="7f5a3e22fe10a8736a6617032c124d65" category="paragraph">_タグ_ セクションでは、最大 10 個のタグ キー/値のペアを追加したり、タグ キー/値のペアを変更または削除したりできます。タグは、オブジェクトがストレージ アカウントに追加されたときに適用されます。さらにタグを追加する場合は、「*新しいタグを追加*」を選択します。</block>
+  <block id="30e9a668dc19dece9cb3dd69e9b063d3" category="inline-link">タグ付けの詳細については、Microsoft のドキュメントをご覧ください。</block>
+  <block id="80598dfcfb04cfe9ee89b3dd2435d966" category="paragraph"><block ref="ecb9289e48b99f9d8e4a15e023dafaa1" category="inline-link-rx"></block> 。</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">暗号化設定を変更する</block>
+  <block id="8482b20813e2f73309385bb4bbb2d3b3" category="paragraph">_Encryption_ セクションでは、ストレージ アカウント内のデータへのアクセスを保護するために使用するデータ暗号化の種類を変更できます。</block>
+  <block id="02135eee51d89316848e37e7ea143077" category="cell">デフォルトでは、データの暗号化には Microsoft が管理する暗号化キーが使用されます。</block>
+  <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp は、さまざまな方法でNetAppコンソールのサポートを提供します。ナレッジベース (KB) 記事やコミュニティ フォーラムなど、広範な無料のセルフサポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを受ける</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">NetAppコンソールとそのストレージ ソリューションおよびデータ サービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Cloud Volumes ONTAPシステムの主要なワークフローを有効にするには、サポート登録も必要です。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">サポートに登録しても、クラウド プロバイダー ファイル サービスに対するNetAppサポートは有効になりません。クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にするには、次の 2 つの登録形式があります。</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">NetAppコンソール アカウントのシリアル番号 (コンソールの [サポート リソース] ページにある 20 桁の 960xxxxxxxxx シリアル番号) を登録します。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">これは、コンソール内のすべてのサービスに対する単一のサポート サブスクリプション ID として機能します。各コンソール アカウントを登録する必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウド プロバイダーのマーケットプレイスで、サブスクリプションに関連付けられたCloud Volumes ONTAPシリアル番号を登録します (これらは 20 桁の 909201xxxxxxxx シリアル番号です)。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">これらのシリアル番号は一般に _PAYGO シリアル番号_ と呼ばれ、 Cloud Volumes ONTAP の導入時にNetAppコンソールによって生成されます。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">両方のタイプのシリアル番号を登録すると、サポート チケットの開設やケースの自動生成などの機能が有効になります。登録は、以下の説明に従ってNetAppサポート サイト (NSS) アカウントをコンソールに追加することで完了します。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">NetAppサポートのためにNetAppコンソールを登録する</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">サポートに登録し、サポート資格を有効にするには、 NetAppコンソール アカウントの 1 人のユーザーがNetAppサポート サイト アカウントをコンソール ログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存顧客</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">NSS アカウントをお持ちのNetApp のお客様の場合は、コンソールからサポートに登録するだけです。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">*管理* &gt; *資格情報*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*ユーザー資格情報*を選択します。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">*NSS 資格情報の追加* を選択し、 NetAppサポート サイト (NSS) の認証プロンプトに従います。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが成功したことを確認するには、[ヘルプ] アイコンを選択し、[サポート] を選択します。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*リソース* ページには、コンソール アカウントがサポートに登録されていることが表示されます。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">他のコンソール ユーザーは、ログインにNetAppサポート サイト アカウントを関連づけていない場合、同じサポート登録ステータスを表示しないことに注意してください。ただし、これはあなたのアカウントがサポートに登録されていないことを意味するものではありません。組織内の 1 人のユーザーがこれらの手順を実行していれば、アカウントは登録済みになります。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">既存の顧客だがNSSアカウントがない</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">既存のライセンスとシリアル番号を持ち、NSS アカウントを持っていない場合、既存のNetApp顧客は、NSS アカウントを作成し、それをコンソール ログインに関連付ける必要があります。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetAppサポートサイト ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">NetAppサポートサイトのアカウントを作成するには、<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザー レベル (通常は * NetApp顧客/エンド ユーザー*) を選択してください。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">上記で使用したコンソール アカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">以下の手順を実行して、新しいNSSアカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetAppの新着情報</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetAppを初めて使用し、NSS アカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">コンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページからアカウント ID シリアル番号を見つけます。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetAppのサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">移動先<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>*私は登録済みのNetApp顧客ではありません* を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールド（赤いアスタリスクが付いているフィールド）に入力します。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*製品ライン* フィールドで、*Cloud Manager* を選択し、該当する請求プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順 2 からアカウントのシリアル番号をコピーし、セキュリティ チェックを完了して、NetApp のグローバル データ プライバシー ポリシーを読んだことを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全な取引を完了するために、指定されたメールボックスに電子メールが直ちに送信されます。検証メールが数分以内に届かない場合は、必ずスパム フォルダーを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">メール内からアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認すると、リクエストがNetAppに送信され、 NetAppサポート サイトのアカウントを作成することが推奨されます。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">上記で使用したアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより処理速度が向上します。</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">終了後の操作</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセス中に、 NetAppから連絡が来るはずです。これは、新規ユーザー向けの 1 回限りのオンボーディング演習です。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">NetAppサポートサイトのアカウントを取得したら、以下の手順を実行して、アカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートに NSS 認証情報を関連付ける</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Cloud Volumes ONTAPの次の主要なワークフローを有効にするには、 NetAppサポート サイトの認証情報をコンソール アカウントに関連付ける必要があります。</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムをサポート対象として登録する</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">システムのサポートを有効にし、 NetAppテクニカル サポート リソースにアクセスするには、NSS アカウントを提供する必要があります。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL（個人ライセンス使用）時にCloud Volumes ONTAP を導入する</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">コンソールがライセンス キーをアップロードし、購入した期間のサブスクリプションを有効にするには、NSS アカウントを提供する必要があります。これには、期間更新の自動更新が含まれます。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAPソフトウェアを最新リリースにアップグレードする</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 資格情報をNetAppコンソール アカウントに関連付けることは、コンソール ユーザー ログインに関連付けられている NSS アカウントとは異なります。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">これらの NSS 資格情報は、特定のコンソール アカウント ID に関連付けられています。コンソール組織に属するユーザーは、*サポート &gt; NSS 管理* からこれらの資格情報にアクセスできます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">顧客レベルのアカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナー アカウントまたは再販業者アカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できますが、顧客レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS管理 &gt; NSSアカウントの追加*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、[続行] を選択して、Microsoft ログイン ページにリダイレクトします。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp は、サポートとライセンスに固有の認証サービスの ID プロバイダーとして Microsoft Entra ID を使用します。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログイン ページで、 NetAppサポート サイトに登録した電子メール アドレスとパスワードを入力して、認証プロセスを実行します。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">これらのアクションにより、コンソールはライセンスのダウンロード、ソフトウェア アップグレードの検証、将来のサポート登録などに NSS アカウントを使用できるようになります。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS アカウントは顧客レベルのアカウントである必要があります (ゲスト アカウントや一時アカウントではありません)。顧客レベルの NSS アカウントを複数持つことができます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">パートナー レベルのアカウントの場合、NSS アカウントは 1 つだけ存在できます。顧客レベルの NSS アカウントを追加しようとしたときにパートナー レベルのアカウントが存在する場合は、次のエラー メッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「異なるタイプの NSS ユーザーがすでに存在するため、このアカウントでは NSS 顧客タイプは許可されません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存の顧客レベルの NSS アカウントがあり、パートナー レベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインが成功すると、 NetApp はNSS ユーザー名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平の点のアイコン</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これは、メールにマッピングされるシステム生成の ID です。*NSS管理*ページでは、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証トークンを更新する必要がある場合は、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするよう求められます。これらのアカウントのトークンは 90 日後に期限切れになることに注意してください。これを知らせる通知が投稿されます。</block>
+  <block id="512fd5eb37bb5d3f000a423886a72dd0" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetAppコンソールに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録する</block>
+  <block id="1a5c7abb09e3d3feef67160c6bf7e9de" category="summary">Azure にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Azure サブスクリプションに存在する Azure ストレージ アカウントに関する情報を自動的に検出できるようになります。</block>
+  <block id="9a3a653da58394b22bef7791dd8554eb" category="doc">Azure Blob ストレージ アカウントを表示する</block>
+  <block id="9d25e9a3093ef1c625de6c96383dadc4" category="paragraph">Azure にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Azure サブスクリプションに存在する Azure ストレージ アカウントに関する情報を自動的に検出できるようになります。この情報を表示できるように、Azure Blob システムがシステム ページに追加されます。</block>
+  <block id="3decc2b25551b75d7f00f21ece6c37ea" category="paragraph">場所、リソース グループ、使用済み容量など、Azure ストレージ アカウントの詳細を確認できます。これらのアカウントは、 NetApp Backup and Recovery、 NetApp Copy and Sync、 NetApp Cloud Tiering からの操作の宛先として使用できます。</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">コンソールエージェントをインストールする</block>
+  <block id="e305470faa4bea1f1f5144045f2855a6" category="list-text"><block ref="fa576e0e09315256214eb07edac2adf4" category="inline-link-rx"></block>Azure Blob ストレージ アカウントを表示する Azure アカウントで。</block>
+  <block id="59bd34e0021703b8d6db7819960639e9" category="list-text">ナビゲーション メニューから、*ストレージ &gt; システム*を選択します。</block>
+  <block id="a447fa14efc2bf91db07251c38fac4e1" category="paragraph">しばらくすると、Azure Blob Storage システムが自動的に表示されます。</block>
+  <block id="86224655d8b1f0ade9e896b9fcf0b60c" category="inline-image-macro">Azure Blob Storage システムのスクリーンショット。</block>
+  <block id="e8a45ade7a31a907706b0eced41a6797" category="paragraph"><block ref="e8a45ade7a31a907706b0eced41a6797" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4098d8a4f7e10e5fc76c2c55328b4219" category="list-text">システムを選択します。Azure BlobストレージでNetAppデータサービスを有効にする場合は、右側のペインからアクションを選択します。</block>
+  <block id="fd18f232d9dd1b88b02517ddd904f5e0" category="inline-link-macro">利用可能なデータ サービスを確認し、Azure Blob Storage アカウントでそれらを使用する方法を学習します。</block>
+  <block id="fc6f877cd20e7e37aa8ef215441d07c2" category="paragraph"><block ref="61f14c3be563a407ea1e5b89809c8f9e" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d73d41e98f1a86dd4bb3df8c7938989e" category="list-text">Azure ストレージ アカウントの詳細を表示するには、[システムに入る] を選択するか、システムをダブルクリックします。</block>
+  <block id="092a9b96bd1de839450d54782f44b81e" category="inline-image-macro">Azure Blob システムの詳細 (ストレージ アカウントの合計数、場所の合計数、リソース グループ、合計容量など) を示すスクリーンショット。</block>
+  <block id="35c017a4cbd6dbb64b49b2a2cd7d98cf" category="paragraph"><block ref="35c017a4cbd6dbb64b49b2a2cd7d98cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="fe6cbd8a6e61161bb3e680f8276259b3" category="paragraph">デフォルトで表示される列に加えて、ページをスクロールして、ストレージ アカウントの追加プロパティ (タグの数、有効になっている暗号化の種類など) を表示できます。</block>
+  <block id="cce78dc6ebbec7385a01f2146d6d01c8" category="paragraph-title">次の手順</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">詳細はこちら</block>
+  <block id="f848664f4a12a4d85a2bba2148945bd1" category="paragraph">ストレージアカウントの一部の設定を変更するには、コンソールから直接変更します。<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>ストレージ アカウント用。<block ref="9c8d49d6625e6bf11b03ca72c09c01c2" category="inline-link-macro-rx"></block> 。</block>
+  <block id="5cf659dc6e09c32c169575fe26b201ae" category="paragraph">*ストレージ アカウントの追加* を選択すると、新しいバケットを追加できます。<block ref="12b5c739b359c8d18d1137eb9ca164cd" category="inline-link-macro-rx"></block> 。</block>
+  <block id="772684c801abc651ae0dc31659435455" category="summary">NetAppコンソールの Azure Blob Storage の新機能について説明します。</block>
+  <block id="04931c6c4c232b07934b219431629bbe" category="doc">NetAppコンソールの Azure Blob Storage の新機能</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="58770c745f8af8b420df40e44a144c15" category="section-title">2023年6月5日</block>
+  <block id="f541f709f2df7eb795369863ef11f4d0" category="sidebar">NetAppコンソールで Azure Blob ストレージの使用を開始します。</block>
+  <block id="3248c863cc0fef1b82096d4ead258a65" category="sidebar">Azure Blob ストレージのドキュメント</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">始めましょう</block>
+  <block id="d6e6988ac0c468e057a7e03d242d4482" category="sidebar">Azure Blob ストレージ アカウントを管理する</block>
+  <block id="9268e6eddc40b903b8d17875688dc8fd" category="sidebar">BLOB ストレージ アカウントを追加する</block>
+  <block id="da76ba9e74fcf14ff7a78009d4a7c47f" category="sidebar">ストレージアカウント設定を変更する</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">詳細情報</block>
+  <block id="511af8988082598d374bf60b1f8a78a0" category="sidebar">コンソール外での管理に関する Azure Blob Storage ドキュメント</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetAppコンソール</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetAppデータサービス</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
+  <block id="f7075df207de578e65f65593c4432af6" category="sidebar">Azure Blob ストレージのドキュメント</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
+  <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">新しいストレージアカウントを追加する</block>
+  <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">ストレージアカウントの設定を変更する</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+</blocks>

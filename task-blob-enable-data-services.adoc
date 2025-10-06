@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-blob-enable-data-services.html 
+keywords: blob storage, blob working environment, azure blob storage accounts, azure blob working environment, system 
+summary: BlueXPで Azure Blob ストレージ アカウントを検出したら、バックアップ、階層化、およびデータ同期にNetAppデータ サービスを使用できます。 
+---
+= Azure Blob ストレージでNetAppデータ サービスを使用する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールで Azure Blob ストレージ アカウントを検出したら、バックアップ、階層化、およびデータ同期にNetAppデータ サービスを使用できます。
+
+* * NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから Azure Blob ストレージにデータをバックアップします。
++
+開始するには、「システム」ページに移動します。オンプレミスのONTAPまたはCloud Volumes ONTAPシステムを Azure Blob Storage システムにドラッグ アンド ドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["ONTAPデータを Azure Blob ストレージにバックアップする方法の詳細"^] 。
+
+* * NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスターから Azure Blob ストレージに非アクティブなデータを階層化します。
++
+開始するには、「システム」ページに移動します。オンプレミスのONTAPシステムを Azure Blob Storage システムにドラッグ アンド ドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-azure.html["ONTAPデータを Azure Blob ストレージに階層化する方法の詳細"^] 。
+
+* * NetApp Copy and Sync* を使用して、Azure Blob ストレージ アカウントとの間でデータを同期します。
++
+開始するには、「システム」ページに移動します。ソース システムをターゲット システムにドラッグ アンド ドロップします。  Azure Blob Storage システムは、ソースまたはターゲットのいずれかになります。
+
++
+また、Azure Blob ストレージ システムを選択し、[サービス] パネルから [コピーと同期] を選択して、Azure Blob ストレージ アカウントとの間でデータを同期することもできます。
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/concept-cloud-sync.html["コピーと同期について詳しくはこちら"^] 。
+
+

@@ -1,0 +1,32 @@
+---
+indexpage:
+  title: Azure Blob ストレージのドキュメント
+  summary: NetAppコンソールで Azure Blob ストレージの使用を開始します。
+  keywords: bluexp, documentation, storage, storage management, azure blob, netapp
+    console
+  lead: NetAppコンソールで Azure Blob ストレージの使用を開始します。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: Azure Blob ストレージ アカウントを表示する
+      url: task-view-azure-blob-storage.html
+  - title: Azure Blob ストレージ アカウントを管理する
+    links:
+    - title: BLOB ストレージ アカウントを追加する
+      url: task-add-blob-storage.html
+    - title: ストレージアカウント設定を変更する
+      url: task-change-blob-storage-settings.html
+    - title: Azure Blob ストレージでNetAppデータ サービスを使用する
+      url: task-blob-enable-data-services.html
+  - title: 詳細情報
+    links:
+    - title: コンソール外での管理に関する Azure Blob Storage ドキュメント
+      url: https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/
