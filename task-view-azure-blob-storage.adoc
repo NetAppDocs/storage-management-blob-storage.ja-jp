@@ -19,7 +19,7 @@ Azure にコンソール エージェントをインストールすると、 Net
 場所、リソース グループ、使用済み容量など、Azure ストレージ アカウントの詳細を確認できます。これらのアカウントは、 NetApp Backup and Recovery、 NetApp Copy and Sync、 NetApp Cloud Tiering からの操作の宛先として使用できます。
 
 .手順
-. https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-connector-azure.html["コンソールエージェントをインストールする"^]Azure Blob ストレージ アカウントを表示する Azure アカウントで。
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-azure.html["コンソールエージェントをインストールする"^]Azure Blob ストレージ アカウントを表示する Azure アカウントで。
 . ナビゲーション メニューから、*ストレージ > システム*を選択します。
 +
 しばらくすると、Azure Blob Storage システムが自動的に表示されます。

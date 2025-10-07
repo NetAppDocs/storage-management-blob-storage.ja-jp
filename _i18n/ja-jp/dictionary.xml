@@ -2,12 +2,10 @@
 <blocks>
   <block id="f9037e3eb23130835367334e3aa5a34b" category="doc">BlueXPから新しいストレージアカウントを追加する機能</block>
   <block id="7e4c7c60d975edb27a163364c9868139" category="inline-xref-macro">新しい Azure Blob ストレージ アカウントを追加する方法を学ぶ</block>
-  <block id="f85f92208aecee0545b9eedb64b14672" category="paragraph">かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。 BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。<block ref="127c39654391bed812f2268282064990" category="inline-xref-macro-rx"></block> 。</block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetAppコンソールになりました</block>
   <block id="745be0d280d894f70c3f88e76f519456" category="paragraph">BlueXP は、データ インフラストラクチャの管理における役割をより適切に反映するために、名前が変更され、再設計されました。</block>
   <block id="7e4f7c37590688c797d9b40e3a3423e3" category="paragraph">NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link">NetAppコンソールのリリースノート</block>
-  <block id="9d88b780dd182bc558e5dd7624d35838" category="paragraph">変更内容の詳細については、<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> 。</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
@@ -28,7 +26,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
   <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetAppコンソールに関するお知らせ</block>
-  <block id="e672b1ea49afca81ea77f91f12f606ea" category="paragraph"><block ref="e672b1ea49afca81ea77f91f12f606ea" category="inline-link-rx"></block></block>
   <block id="3572522b9cf12bb382fd0920f5745fd0" category="summary">Azure Blob Storage システムがNetAppコンソールのシステム ページで使用可能になったら、コンソールから直接追加のストレージ アカウントを追加できます。</block>
   <block id="98249a942e9f70229e82c312e65b0c3e" category="doc">NetAppコンソールで Azure Blob ストレージ アカウントを追加する</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
@@ -79,22 +76,18 @@
   <block id="518fa4ed7cef478f91e710fa235bf797" category="inline-link">顧客管理キーの詳細情報</block>
   <block id="1c996ef0ac245038c210c7f6136b7a5f" category="paragraph">Microsoft Azureのドキュメントを参照してください<block ref="00b60a199735a6cd55c721820633fd18" category="inline-link-rx"></block>、 そして<block ref="179ce78dfc1dee8d313bdcb48c576259" category="inline-link-rx"></block>。</block>
   <block id="4075c13a9dc3ab5fe72584ab95dcb280" category="list-text">バケットを作成するには、[*追加*] を選択します。</block>
-  <block id="743c7f25a48e123c93c9fc954e6a69df" category="summary">BlueXPで Azure Blob ストレージ アカウントを検出したら、バックアップ、階層化、およびデータ同期にNetAppデータ サービスを使用できます。</block>
   <block id="6650dfeb4f458c61b2949845625bd24c" category="doc">Azure Blob ストレージでNetAppデータ サービスを使用する</block>
   <block id="1b2bcb14630e84f98ecf8fc8ba9e1bd7" category="paragraph">NetAppコンソールで Azure Blob ストレージ アカウントを検出したら、バックアップ、階層化、およびデータ同期にNetAppデータ サービスを使用できます。</block>
   <block id="8244f0a4bfcb8635db2f91ef5aa1b9eb" category="list-text">* NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから Azure Blob ストレージにデータをバックアップします。</block>
   <block id="de91c1448816840d85691a77ebd16003" category="paragraph">開始するには、「システム」ページに移動します。オンプレミスのONTAPまたはCloud Volumes ONTAPシステムを Azure Blob Storage システムにドラッグ アンド ドロップします。</block>
   <block id="d86f0808bf63647bc6d2990fee15f32a" category="inline-link">ONTAPデータを Azure Blob ストレージにバックアップする方法の詳細</block>
-  <block id="95af42d58740cb6ef9743795caced435" category="paragraph"><block ref="a81ea9edabd79d5dc24a3011f7940a63" category="inline-link-rx"></block> 。</block>
   <block id="95578947246790f85684248eaa680963" category="list-text">* NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスターから Azure Blob ストレージに非アクティブなデータを階層化します。</block>
   <block id="565724b78e68c2fe59a7fe137cb67cf4" category="paragraph">開始するには、「システム」ページに移動します。オンプレミスのONTAPシステムを Azure Blob Storage システムにドラッグ アンド ドロップします。</block>
   <block id="683411769b2e2b5ee5d1c8ac476393d4" category="inline-link">ONTAPデータを Azure Blob ストレージに階層化する方法の詳細</block>
-  <block id="f8f7dea78fa7518dbbdf96d1aafadc4b" category="paragraph"><block ref="55d91164053c84267300c3db4638255c" category="inline-link-rx"></block> 。</block>
   <block id="fbf760e5fd50e3458e72728d6cfcdd8c" category="list-text">* NetApp Copy and Sync* を使用して、Azure Blob ストレージ アカウントとの間でデータを同期します。</block>
   <block id="92f68f59c4c56b8e291f44d42de2d134" category="paragraph">開始するには、「システム」ページに移動します。ソース システムをターゲット システムにドラッグ アンド ドロップします。  Azure Blob Storage システムは、ソースまたはターゲットのいずれかになります。</block>
   <block id="ae6c3cec15a4ac482ea9a67236df0484" category="paragraph">また、Azure Blob ストレージ システムを選択し、[サービス] パネルから [コピーと同期] を選択して、Azure Blob ストレージ アカウントとの間でデータを同期することもできます。</block>
   <block id="457a1cf5fd2ca976e622a9a914d24bad" category="inline-link">コピーと同期について詳しくはこちら</block>
-  <block id="390b3380d403721d5ae98adafc131592" category="paragraph"><block ref="f9b2d2345f65b81f6f23df634577d11f" category="inline-link-rx"></block> 。</block>
   <block id="3cdcdc716a6a72fc6747db0e7fc271df" category="summary">Azure Blob Storage システムがシステム ページで使用できるようになると、 NetAppコンソールから一部のストレージ アカウントのプロパティを直接変更できます。</block>
   <block id="326e8a2426191fe14f044e4c0c5c2763" category="doc">NetAppコンソールで Azure Blob ストレージ アカウント設定を変更する</block>
   <block id="e4d20ea28e0dccf4440f8908211c905a" category="paragraph">ストレージ アカウント名、Azure リージョン、またはストレージのパフォーマンスの種類は変更できないことに注意してください。</block>
@@ -204,7 +197,6 @@
   <block id="9d25e9a3093ef1c625de6c96383dadc4" category="paragraph">Azure にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Azure サブスクリプションに存在する Azure ストレージ アカウントに関する情報を自動的に検出できるようになります。この情報を表示できるように、Azure Blob システムがシステム ページに追加されます。</block>
   <block id="3decc2b25551b75d7f00f21ece6c37ea" category="paragraph">場所、リソース グループ、使用済み容量など、Azure ストレージ アカウントの詳細を確認できます。これらのアカウントは、 NetApp Backup and Recovery、 NetApp Copy and Sync、 NetApp Cloud Tiering からの操作の宛先として使用できます。</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">コンソールエージェントをインストールする</block>
-  <block id="e305470faa4bea1f1f5144045f2855a6" category="list-text"><block ref="fa576e0e09315256214eb07edac2adf4" category="inline-link-rx"></block>Azure Blob ストレージ アカウントを表示する Azure アカウントで。</block>
   <block id="59bd34e0021703b8d6db7819960639e9" category="list-text">ナビゲーション メニューから、*ストレージ &gt; システム*を選択します。</block>
   <block id="a447fa14efc2bf91db07251c38fac4e1" category="paragraph">しばらくすると、Azure Blob Storage システムが自動的に表示されます。</block>
   <block id="86224655d8b1f0ade9e896b9fcf0b60c" category="inline-image-macro">Azure Blob Storage システムのスクリーンショット。</block>
@@ -241,4 +233,11 @@
   <block id="baf9c0d022fa9e7a85fa77eeb954adbd" category="sidebar">新しいストレージアカウントを追加する</block>
   <block id="0143afd4b3b57a4efca22155b835b7f2" category="sidebar">ストレージアカウントの設定を変更する</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+  <block id="986ddb500dcbfc5d9995ab28bc27a477" category="paragraph">かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。<block ref="da5959ee38843473d9246184c88364f6" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7c2f2b72d5ae6fd05d7d6047507f2af7" category="paragraph">変更内容の詳細については、<block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block> 。</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="0acdb79db506f71e141b4b858a143a05" category="paragraph"><block ref="ac49df85e776f3658144e4570d832c99" category="inline-link-rx"></block> 。</block>
+  <block id="5de458d476f48f2b48be07aaa2ed728d" category="paragraph"><block ref="fa6adc59d924d47a66d1ce7306342ebd" category="inline-link-rx"></block> 。</block>
+  <block id="b7a9d1a982d7ad533f67bfcc152c0150" category="paragraph"><block ref="eb3ec74247e0c67b8ffacea7d75f8527" category="inline-link-rx"></block> 。</block>
+  <block id="de55cf1dcb46cf880eafc22afc211f46" category="list-text"><block ref="2ffbb079efc75d97cc35ff4a4c0cfde8" category="inline-link-rx"></block>Azure Blob ストレージ アカウントを表示する Azure アカウントで。</block>
 </blocks>

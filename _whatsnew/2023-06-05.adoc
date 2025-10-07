@@ -1,11 +1,9 @@
 = BlueXPから新しいストレージアカウントを追加する機能
 :allow-uri-read: 
-:icons: font
-:imagesdir: ../media/
 
 
 
 
 === BlueXPから新しいストレージアカウントを追加する機能
 
-かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。 BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。xref:../task-add-blob-storage.html[新しい Azure Blob ストレージ アカウントを追加する方法を学ぶ] 。
+かなり以前から、 BlueXP Canvas で Azure Blob Storage を表示することができました。BlueXPから直接、新しいストレージ アカウントを追加したり、既存のストレージ アカウントのプロパティを変更したりできるようになりました。link:https://docs.netapp.com/us-en/storage-management-blob-storage/["新しい Azure Blob ストレージ アカウントを追加する方法を学ぶ"^] 。

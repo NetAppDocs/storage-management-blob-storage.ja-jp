@@ -10,4 +10,4 @@ BlueXP は、データ インフラストラクチャの管理における役割
 
 NetAppコンソールは、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのストレージとデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、管理の簡素化を実現します。
 
-変更内容の詳細については、 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+変更内容の詳細については、 https://docs.netapp.com/us-en/console-relnotes/index.html["NetAppコンソールのリリースノート"] 。
